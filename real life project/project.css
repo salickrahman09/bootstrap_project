@@ -1,0 +1,103 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8b400;
+    color: #fff;
+    padding: 2em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 0.5em 0;
+}
+
+header .btn-primary {
+    background-color: #e0a900;
+    border: none;
+}
+
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8b400 !important;
+}
+
+section {
+    padding: 2em 0;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin: 0.5em 0;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"], .btn-primary {
+    background-color: #f8b400;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover, .btn-primary:hover {
+    background-color: #e0a900;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .nav-link {
+        padding: 1em;
+    }
+
+    .cta-button {
+        display: block;
+        margin: 1em auto;
+    }
+
+    .menu-item, .special-item {
+        width: 90%;
+    }
+
+    .gallery img {
+        max-width: 100%;
+    }
+}
